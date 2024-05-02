@@ -1,0 +1,39 @@
+*{
+    margin:auto;
+    font-size: 20px;
+    padding: 4px;
+    font-style: italic;
+    text-align: center;
+  
+  
+  }   *{
+             text-align: center;
+              text-decoration: double;
+              font-size: 20px;
+              padding: 3px;
+              
+          }
+        .button{
+          background-color:rgb(92, 240, 136);
+          color:black;
+          height: 40px;
+          width: 100px;
+          border-radius: 10px;
+      }
+          .button:hover{
+              color: white;
+  
+          } 
+          .form{
+              background-color: #f2f2f2;
+              height: auto;
+              width:fit-content;
+              display: block;
+              margin: auto;
+              border: 2px solid; 
+          }
+          h2{
+            font-size: 40px;
+            text-decoration: double;
+            
+          }

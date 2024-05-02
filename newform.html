@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="newform.css">
+    <script>
+        function validate() {
+            var name = document.getElementById("name").value;
+            if (name == "") {
+                alert("Enter Your Name")
+
+            }
+            var email = document.getElementById("email").value;
+            if (email == "") {
+                alert("Enter a Email")
+            }
+            var password = document.getElementById("password").value;
+            if (password == "")
+                alert("enter a password")
+
+        }
+
+    </script>
+
+</head>
+
+<body>
+    <h1>
+        Form
+    </h1>
+    <form action="action.php" method="get">
+        <label for="name">Name</label>
+        <br>
+        <input type="text" name="name" id="name">
+        <br>
+        <label for="email">Email</label>
+        <br>
+        <input type="text" name="email" id="email">
+        <br>
+        <label for="password">Password</label>
+        <br>
+        <input type="password" name="password" id="password">
+        <br> <br>
+        <input onclick="return validate()" id="button" type="button" value="submit">
+
+
+    </form>
+</body>
+
+</html>
